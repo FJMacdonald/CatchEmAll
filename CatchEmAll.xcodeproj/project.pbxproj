@@ -8,17 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		99D5A8C42A9B31A100B05DF6 /* CatchEmAllApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D5A8C32A9B31A100B05DF6 /* CatchEmAllApp.swift */; };
-		99D5A8C62A9B31A100B05DF6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D5A8C52A9B31A100B05DF6 /* ContentView.swift */; };
+		99D5A8C62A9B31A100B05DF6 /* CreaturesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D5A8C52A9B31A100B05DF6 /* CreaturesListView.swift */; };
 		99D5A8C82A9B31A300B05DF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99D5A8C72A9B31A300B05DF6 /* Assets.xcassets */; };
 		99D5A8CB2A9B31A300B05DF6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99D5A8CA2A9B31A300B05DF6 /* Preview Assets.xcassets */; };
+		99D5A8D32A9B8B6000B05DF6 /* CreaturesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D5A8D22A9B8B6000B05DF6 /* CreaturesViewModel.swift */; };
+		99D5A8D52A9B962F00B05DF6 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D5A8D42A9B962F00B05DF6 /* DetailView.swift */; };
+		99D5A8D92A9B9CAA00B05DF6 /* CreaturesDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D5A8D82A9B9CAA00B05DF6 /* CreaturesDetailViewModel.swift */; };
+		99D5A8DB2A9BD7A900B05DF6 /* Creature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D5A8DA2A9BD7A900B05DF6 /* Creature.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		99D5A8C02A9B31A100B05DF6 /* CatchEmAll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatchEmAll.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99D5A8C32A9B31A100B05DF6 /* CatchEmAllApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchEmAllApp.swift; sourceTree = "<group>"; };
-		99D5A8C52A9B31A100B05DF6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		99D5A8C52A9B31A100B05DF6 /* CreaturesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreaturesListView.swift; sourceTree = "<group>"; };
 		99D5A8C72A9B31A300B05DF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99D5A8CA2A9B31A300B05DF6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		99D5A8D12A9B31DB00B05DF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		99D5A8D22A9B8B6000B05DF6 /* CreaturesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreaturesViewModel.swift; sourceTree = "<group>"; };
+		99D5A8D42A9B962F00B05DF6 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		99D5A8D82A9B9CAA00B05DF6 /* CreaturesDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreaturesDetailViewModel.swift; sourceTree = "<group>"; };
+		99D5A8DA2A9BD7A900B05DF6 /* Creature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Creature.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +60,13 @@
 		99D5A8C22A9B31A100B05DF6 /* CatchEmAll */ = {
 			isa = PBXGroup;
 			children = (
+				99D5A8D12A9B31DB00B05DF6 /* Info.plist */,
 				99D5A8C32A9B31A100B05DF6 /* CatchEmAllApp.swift */,
-				99D5A8C52A9B31A100B05DF6 /* ContentView.swift */,
+				99D5A8DA2A9BD7A900B05DF6 /* Creature.swift */,
+				99D5A8D22A9B8B6000B05DF6 /* CreaturesViewModel.swift */,
+				99D5A8D82A9B9CAA00B05DF6 /* CreaturesDetailViewModel.swift */,
+				99D5A8C52A9B31A100B05DF6 /* CreaturesListView.swift */,
+				99D5A8D42A9B962F00B05DF6 /* DetailView.swift */,
 				99D5A8C72A9B31A300B05DF6 /* Assets.xcassets */,
 				99D5A8C92A9B31A300B05DF6 /* Preview Content */,
 			);
@@ -137,8 +151,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99D5A8C62A9B31A100B05DF6 /* ContentView.swift in Sources */,
+				99D5A8D32A9B8B6000B05DF6 /* CreaturesViewModel.swift in Sources */,
+				99D5A8D52A9B962F00B05DF6 /* DetailView.swift in Sources */,
+				99D5A8DB2A9BD7A900B05DF6 /* Creature.swift in Sources */,
+				99D5A8C62A9B31A100B05DF6 /* CreaturesListView.swift in Sources */,
 				99D5A8C42A9B31A100B05DF6 /* CatchEmAllApp.swift in Sources */,
+				99D5A8D92A9B9CAA00B05DF6 /* CreaturesDetailViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +288,9 @@
 				DEVELOPMENT_TEAM = 438XUBP5L4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CatchEmAll/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -299,9 +317,9 @@
 				DEVELOPMENT_TEAM = 438XUBP5L4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CatchEmAll/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
